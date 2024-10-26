@@ -1,0 +1,170 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.background-black{
+    background-color: black;
+}
+
+.navbar{
+    background-color: #f0ebe3;
+}
+
+.background-black .nav-link{
+    color: white !important; /* Cor padrão dos links */
+    text-decoration: none !important;
+}
+
+.background-black .nav-link:hover{
+    color: #d1c4b7 !important; /* Cor ao passar o mouse */
+    text-decoration: none !important;
+}
+
+/* Estilo para o input de busca */
+.custom-search-bar {
+    border-radius: 50px 0 0 50px; /* Arredonda as bordas esquerda do campo */
+    padding: 10px 20px; /* Ajusta o padding */
+    height: 35px;
+    width: 170px;
+    border: 2px solid #d1c4b7; /* Cor de borda similar à da imagem */
+    background-color: #f0ebe3; /* Cor de fundo */
+    color: #8d8275; /* Cor do texto */
+    font-family: inherit;
+}
+
+/* Estilo para o botão de busca */
+.custom-search-btn {
+    border-radius: 0 50px 50px 0; /* Arredonda as bordas direita do botão */
+    padding: 10px 20px;
+    height: 35px;
+    width: 50px;
+    border: 2px solid #d1c4b7;
+    background-color: #000000; /* Cor preta do botão */
+    color: #ffffff; /* Cor do texto */
+    line-height: 35px; /* Centraliza verticalmente o texto no botão */
+    padding: 0; /* Remove padding extra */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-size: 10px;
+}
+
+main{
+    margin-top: 3%;
+}
+
+.col-md-7 h5{
+    margin-top: 4%;
+    color: #000000;
+}
+
+.container .list-group{
+    float: inline-end;
+}
+
+.color-brown1{
+    background-color: #f0ebe3;
+}
+
+#color-brown2{
+    background-color: #d0c7bb;
+}
+
+div .list-group{
+    width: 50%;
+    
+}
+
+div .list-group #color-brown2{
+    border-bottom: 0;
+    padding: 8px 0; /* Adiciona espaçamento entre os itens */
+    text-align: center;
+    font-weight: 600;
+    color: #000000;
+
+}
+
+div .list-group .color-brown1{
+    border-bottom: 2px dashed rgb(172, 170, 170); /* Adiciona uma linha tracejada abaixo de cada item */
+    padding: 50px 0 8px 20px; /* Adiciona espaçamento entre os itens */
+    font-weight: bold;
+    color: #000000;
+}
+
+.color-brown1 .nav-link{
+    color: black !important; /* Cor padrão dos links */
+    text-decoration: none !important;
+}
+
+.color-brown1 .nav-link:hover{
+    color: #d1c4b7 !important; /* Cor ao passar o mouse */
+    text-decoration: none !important;
+}
+
+main .carousel{
+    margin: 10% 0 0 0;
+}
+
+footer{
+    text-align: center;
+    background-color: #d0c7bb;
+    font-weight: 500;
+    margin-top: 8%;
+}
+
+.col-md-7 h3{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.accordion-button{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.card{
+    text-align: center;
+}
+
+.card a{
+    background-color: #d1c4b7 !important;
+    color: white;
+    width: 100%;
+}
+
+#text-verbete{
+    margin: 5% 0 10% 0;
+    font-weight: 500;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #4D4A47;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.col-sm-4 .rounded-circle{
+    border-radius: 100%;
+    width: 500px;
+    height: 225px;
+    margin: 5%;
+}
+
+.col-sm-4 p{
+    text-align: center;
+    font-weight: 500;
+}
