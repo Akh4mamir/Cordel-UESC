@@ -15,9 +15,14 @@
         <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
                 <img src="CORDEL/Brasão_da_UESC.png" alt="UESC Brasão" class="img-fluid" style="max-width: 100px;">
-              <form class="d-flex">
+                <div class="navbar-images">
+                  <img src="CORDEL/sun.png" alt="sol_imagem" id="img-sun">
+                  <img src="CORDEL/cloud.png" alt="nuvem_imagem" id="img-cloud1">
+                  <img src="CORDEL/cloud.png" alt="nuvem_imagem" id="img-cloud2">
+                </div>
+              <form class="d-flex" id="search-form">
                 <input class="form-control me-2 custom-search-bar" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success custom-search-btn" type="submit"><strong>Search</strong></button>
+                <button class="btn btn-outline-success custom-search-btn" type="submit"><strong>Buscar</strong></button>
               </form>
             </div>
           </nav>
@@ -56,7 +61,7 @@
                     <h5><strong>SOBRE:</strong></h5>
                 </div>
 
-                <div class="col-sm-5 justify-content-end">
+                <div class="col-md-5 justify-content-end">
                     <ul class="list-group list-group-flush" id="color-brown1">
                         <li class="list-group-item" id="color-brown2">Páginas/ Links Externos</li>
                         <li class="list-group-item color-brown1"><a class="nav-link" href="index.html">Sobre</a></li>
