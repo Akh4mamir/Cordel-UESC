@@ -87,6 +87,9 @@ button img{
 
 main{
     margin-top: 3%;
+    animation-name: animacao-main;
+    animation-duration: 2s;
+    animation-timing-function: linear;
 }
 
 .col-md-7 h5{
@@ -297,4 +300,30 @@ main {
         align-items: center; /* Centraliza horizontalmente */
     }
 
+}
+
+/* Keyframes */
+
+@keyframes animacao-main {
+    0%{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    25%{
+        opacity: 0.25;
+        transform: translateY(20px);
+
+    }
+    50%{
+        opacity: 0.5;
+        transform: translateY(10px);
+
+    }
+    75%{
+        opacity: 0.75;
+        transform: translateY(0px);
+    }
+    100%{
+        opacity: 1;
+    }
 }
