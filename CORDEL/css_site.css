@@ -15,9 +15,14 @@ body{
     position: absolute;
     right: 9vw;
 }
+#btn-search:hover{
+    background-color: #f0ebe3;
+    color: #000000;
+    border-color: #000000;
+}
 
-button img{
-    width: 1.5vw;
+#btn-search:active, #btn-search:focus{
+    border-color: black;
 }
 
 .navbar-images{
@@ -71,7 +76,7 @@ button img{
 }
 
 /* Estilo para o botão de busca */
-.custom-search-btn {
+.btn-dark {
     border-radius: 0 50px 50px 0; /* Arredonda as bordas direita do botão */
     padding: 10px 20px;
     height: 35px;
