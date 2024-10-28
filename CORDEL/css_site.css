@@ -193,8 +193,8 @@ main {
     margin: 5%;
 }
 
-.col-sm-4 p{
-    text-align: center;
+.col-md-4 p{
+    text-align: center !important;
     font-weight: 500;
 }
 
@@ -205,12 +205,12 @@ main {
         right: 0vw;
     }
     #img-cloud1 {
-        top: 6vh;
-        right: 3vw;
+        top: 60px;
+        right: 60px;
     }
     #img-cloud2 {
-        top: 1vh;
-        right: 7vw;
+        top: 10px;
+        right: 120px;
     }
     #search-form{
         right: 7vw;
@@ -219,20 +219,36 @@ main {
     .navbar-images img{
         width: 4vw;
     }
+
+    .col-md-4 .rounded-circle{
+        border-radius: 100%;
+        width: 250px;
+        height: 250px;
+        margin: 5%;
+    }
+
 }
 
 @media (max-width: 1200px) {
     #img-sun {
-        right: 2vw;
+        right: 20px;
     }
     #img-cloud1 {
-        top: 6vh;
-        right: 4vw;
+        top: 60px;
+        right: 45px;
     }
     #img-cloud2 {
-        top: 2vh;
-        right: 9vw;
+        top: 20px;
+        right: 110px;
     }
+
+    .col-md-4 .rounded-circle{
+        border-radius: 100%;
+        width: 250px;
+        height: 200px;
+        margin: 5%; 
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -245,6 +261,14 @@ main {
     #img-cloud2 {
         display: none;
     }
+
+    .col-md-4 .rounded-circle{
+        border-radius: 100%;
+        width: 250px;
+        height: 250px;
+        margin: 5%; 
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -257,4 +281,20 @@ main {
     #img-cloud2 {
         display: none;
     }
+
+    .col-md-4 .rounded-circle{
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        margin: 5%;
+        position: relative;
+        left: 100px;
+    }
+
+    #align-queries{
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza horizontalmente */
+    }
+
 }
