@@ -201,7 +201,14 @@ main {
     border-radius: 100%;
     width: 70vw;
     height: 30vh;
-    margin: 5%;
+}
+
+.name-margin{
+    margin-top: 11%;
+}
+
+#equipe-margin{
+    margin-top: 5%;
 }
 
 .col-md-4 p{
