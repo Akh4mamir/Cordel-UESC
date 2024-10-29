@@ -118,6 +118,10 @@ main{
     width: 50%;
 }
 
+#bibli-list{
+    margin: 2% 0 2% 0;
+}
+
 div .list-group #color-brown2{
     border-bottom: 0;
     padding: 8px 0; /* Adiciona espaçamento entre os itens */
